@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Radhika">
+<test name="MrngReport">
+<classes>
+<class name="sep6.FirstTestNGclass">
+</class>
+<class name="sep7.SecondTestNGclass">
+</class>
+<class name="sep7.ThirdTestNGclass">
+</class>
+</classes>
+</test>
+</suite>

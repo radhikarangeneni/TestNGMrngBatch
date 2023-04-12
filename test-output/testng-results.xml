@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[4905002]]>
+    </line>
+    <line>
+      <![CDATA[77530]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20746" started-at="2023-01-23T02:08:08Z" finished-at="2023-01-23T02:08:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20746" started-at="2023-01-23T02:08:08Z" finished-at="2023-01-23T02:08:29Z">
+      <class name="sep7.SecondTestNGclass">
+        <test-method status="PASS" signature="setup()[pri:0, instance:sep7.SecondTestNGclass@4520ebad]" name="setup" is-config="true" duration-ms="7620" started-at="2023-01-22T21:08:08Z" finished-at="2023-01-22T21:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="multiplication()[pri:0, instance:sep7.SecondTestNGclass@4520ebad]" name="multiplication" duration-ms="3431" started-at="2023-01-22T21:08:16Z" finished-at="2023-01-22T21:08:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[4905002]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiplication -->
+        <test-method status="PASS" signature="teraDown()[pri:0, instance:sep7.SecondTestNGclass@4520ebad]" name="teraDown" is-config="true" duration-ms="149" started-at="2023-01-22T21:08:19Z" finished-at="2023-01-22T21:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:sep7.SecondTestNGclass@4520ebad]" name="setup" is-config="true" duration-ms="5989" started-at="2023-01-22T21:08:19Z" finished-at="2023-01-22T21:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addition()[pri:2, instance:sep7.SecondTestNGclass@4520ebad]" name="addition" duration-ms="3415" started-at="2023-01-22T21:08:25Z" finished-at="2023-01-22T21:08:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[77530]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addition -->
+        <test-method status="PASS" signature="teraDown()[pri:0, instance:sep7.SecondTestNGclass@4520ebad]" name="teraDown" is-config="true" duration-ms="126" started-at="2023-01-22T21:08:29Z" finished-at="2023-01-22T21:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+      </class> <!-- sep7.SecondTestNGclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

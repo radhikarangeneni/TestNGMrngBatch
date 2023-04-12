@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ravi]">
+  <test name="Report2(failed)" parallel="methods">
+    <classes>
+      <class name="sep7.ThirdTestNGclass">
+        <methods>
+          <include name="setup"/>
+          <include name="roles"/>
+          <include name="users"/>
+          <include name="branches"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- sep7.ThirdTestNGclass -->
+      <class name="sep7.SecondTestNGclass">
+        <methods>
+          <include name="setup"/>
+          <include name="teraDown"/>
+        </methods>
+      </class> <!-- sep7.SecondTestNGclass -->
+    </classes>
+  </test> <!-- Report2(failed) -->
+</suite> <!-- Failed suite [Ravi] -->
